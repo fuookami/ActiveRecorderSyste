@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{401c5f85-cba9-460e-a84a-ab953d122899}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e7fef21f-e267-4fbf-bb1b-9421627fa222}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Assistance">
+      <UniqueIdentifier>{8a21894d-106c-4dd5-9227-424a51aba184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assistance\Header">
+      <UniqueIdentifier>{21d19af1-229d-4a2e-9f71-a8d45ddb85cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assistance\Source">
+      <UniqueIdentifier>{e1cf7f7d-295a-4931-be13-15345e8b2dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2976d755-1833-42be-888c-3e09ad558898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Header">
+      <UniqueIdentifier>{392f395f-9969-42d7-893b-06ffa15d0cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Source">
+      <UniqueIdentifier>{059319ed-3d4c-4798-b2ed-51d516d88a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monitor">
+      <UniqueIdentifier>{9f8f25bf-a1d3-4344-a824-7bb4781cadeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monitor\Header">
+      <UniqueIdentifier>{a2525973-0c8c-473e-bc94-6371fd1bcab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monitor\Source">
+      <UniqueIdentifier>{50a1cfe9-7d82-447a-8d0d-be0618313f49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDecoder.cpp">
+      <Filter>Assistance\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FMediaType.cpp">
+      <Filter>Assistance\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FTransform.cpp">
+      <Filter>Assistance\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FTransformFunctions.cpp">
+      <Filter>Assistance\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FVideoFormat.cpp">
+      <Filter>Assistance\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FCapSrc.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FCapSrcSelector.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FCapture.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FCapture.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FCapture.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FCapSrcSelectWid.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FCapSrcSelectWid.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandle.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SystemControler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SystemControler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemControler.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RGB24ShowLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RGB24ShowLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FCapMonitor.cpp">
+      <Filter>Monitor\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB24ShowLabel.cpp">
+      <Filter>Monitor\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FCapThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FCapThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FCapMonitor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FCapMonitor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FCapThread.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="FDecoder.h">
+      <Filter>Assistance\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FMediaType.h">
+      <Filter>Assistance\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FTransform.h">
+      <Filter>Assistance\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FTransformFunctions.h">
+      <Filter>Assistance\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FVideoFormat.h">
+      <Filter>Assistance\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_FCapSrcSelector.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandle.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FCapSrc.h">
+      <Filter>Main\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ui\FCapSrcSelector.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FCapture.h">
+      <Filter>Main\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FCapSrcSelectWid.h">
+      <Filter>Main\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SystemControler.h">
+      <Filter>Main\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RGB24ShowLabel.h">
+      <Filter>Monitor\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FCapThread.h">
+      <Filter>Main\Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FCapMonitor.h">
+      <Filter>Monitor\Header</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
